@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="miniCotainer">
+            <h1 class="vss">HOME</h1>
+            <div id="homeScoreContainer"><h1 id="homeScore">0</h1></div>
+            <div class="buttons">
+                <button onclick="add1Point()">+1</button>
+                <button onclick="add2Point()">+2</button>
+                <button onclick="add3Point()">+3</button>
+            </div>
+        </div>
+        <div><button onclick="resetGmae()" class="reset-game">RESET GAME</button></div>
+        <div class="miniCotainer">
+            <h1 class="vss">GUEST</h1>
+            <div id="guestScoreContainer"><h1 id="guestScore">0</h1></div>
+            <div class="buttons">
+                <button onclick="add1PointG()">+1</button>
+                <button onclick="add2PointG()">+2</button>
+                <button onclick="add3PointG()">+3</button>
+            </div>
+        </div>   
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

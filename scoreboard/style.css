@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+    font-family: myFont;
+    src: url(score-like.ttf);
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(90deg, rgb(0 2 26) 0%, rgb(32 33 56) 100%);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+#homeScoreContainer, #guestScoreContainer{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-radius:5px ;
+    box-shadow: 0px 0px 10px 8px  grey;
+}
+
+.miniCotainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    padding: 20px;
+}
+
+.vss{
+    color: white;
+    font-family: myFont;
+}
+
+#homeScore, #guestScore{
+    font-family: myFont;
+    color: rgb(21, 179, 0);
+    font-size: 90px;
+}
+
+button{
+    font-family: myfont;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    border:1px solid white ;
+    border-radius:4px ;
+    font-size: 18px;
+}
+
+.reset-game{
+    width: 100%;
+    font-size: 16px;
+    color:rgb(255, 187, 187);
+    border:1px solid brown ;
+    box-shadow: 0px 0px 10px 2px brown;
+}
